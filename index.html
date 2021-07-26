@@ -8,50 +8,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="scss\style.css">
+
     <link rel="stylesheet" href="bower_components/google-places/google-places.css">
     <script src="bower_components/google-places/google-places.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
     <!--agrego sticky whatsapp-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
     <!--cierro sticky-->
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="scss\style.css">
 
 </head>
 <body>
-
     <div class="body">
-        <a href="https://api.whatsapp.com/send?phone=+543874738305&text=Hola,%20me%20gustar%C3%ADa%20saber%20si%20tienen%20disponibles%20las%20caba%C3%B1as%20los%20d%C3%ADas" class="float" target="_blank">
-            <i class="fa fa-whatsapp my-float"></i>
-            </a>
-        <div class="headerUno">
-            <img src="logoCabañas.png" alt="">
-        </div>
-        <div class="headerDos">
-            <li>
-                <ul>Contacto</ul>
-                <ul>Experiencias</ul>
-                <ul>¡Quiero reservar!</ul>
-            </li>
-
+        <div class="floating_btn">
+            <a target="_blank" href="https://api.whatsapp.com/send?phone=+543874738305&text=Hola,%20me%20gustar%C3%ADa%20saber%20si%20tienen%20disponibles%20las%20caba%C3%B1as%20los%20d%C3%ADas">
+                <div class= "contact_icon">
+                    <i class="fa fa-whatsapp my-float"></i>
+                </div>
+                </a>
+            <p class="text_icon">¡Quiero reservar!</p>
         </div>
 
-        <div class="mainUno">
+        <div class="headerUno" >
+            <div>
+                <img src="logoCabañas.png" alt="">
+            </div>
+            <div class="divDos">
+                <a href="https://api.whatsapp.com/send?phone=+543874738305&text=Hola,%20me%20gustar%C3%ADa%20saber%20si%20tienen%20disponibles%20las%20caba%C3%B1as%20los%20d%C3%ADas">
+                    <p><strong>
+                        ¡Quiero reservar!
+                    </strong>    
+                    </p>
+                </a>
+            </div>
+        </div>   
+        <div class="mainUno" data-aos="fade-right">
             <h1 class="textoMainUno">Cabañas las Tijeretas</h1>
             <h3 class="textoMainUno">Las más lindas de Salta</h3>
             <p class="textoMainUno">¡Vacaciones en familia! Pileta, descanso y todo lo que estás buscando para relajarte unos días.
                 <br>
             Nos encontramos a 15 minutos del centro para que cuando quieras puedas ir a pasear por la ciudad.</p>
+
         </div>
-        <div class="mainDos">
+        <div class="mainDos" data-aos="fade-left">
             <img src="Cabañahome.png" alt="Gente en la pileta de cabañas las tijeretas">
         </div>
-        <div class="mainTres">
+        <div class="mainTres" data-aos="fade-right">
            
             <img src="fullImage.png" alt="">
           </div>
-        <div class="mainCuatro">
+        <div class="mainCuatro" data-aos="fade-left">
             <h1>Todo lo que necesitas para tu estadía</h1>
             <p>Las comodidades de un hotel pero en la tranquilidad de una cabaña. Mientras estés en Cabañas las Tijeretas tendrás:</p>
             <li>Wi-fi</li>
@@ -70,30 +79,31 @@
         </div>
 
 
-        <div class="mainSeis">
+        <div class="mainSeis" data-aos="fade-right">
             <h1>¡De la pileta al centro en un ratito!</h1>
             <p> A tan solo 20 minutos del centro en Cabañas las Tijeretas se encuentran en una ubicación estratégica. 
                 Circunvalación Oeste es uno de los accesos 
                 más modernos de Salta y será tu camino de regreso al alojamiento.</p>
+                <a href="https://api.whatsapp.com/send?phone=+543874738305&text=Hola,%20me%20gustar%C3%ADa%20saber%20si%20tienen%20disponibles%20las%20caba%C3%B1as%20los%20d%C3%ADas">
+                <p class="callToAction">Quiero consultar disponibilidad</p></a>
+                <em class="advertencia">* No se permiten mascotas</em>
         </div>
-        <div class="mainSiete">
+        <div class="mainSiete" data-aos="fade-left">
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14482.018598371767!2d-65.5219717!3d-24.8466082!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2dcb2dcddf9926ac!2sCaba%C3%B1as%20Las%20Tijeretas!5e0!3m2!1ses-419!2sar!4v1626440104764!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
-        <div class="mainOcho">
-
-        </div>
-        <div class="mainNueve">
+        <div class="mainNueve" data-aos="fade-right">
             <script defer async src='https://cdn.trustindex.io/loader.js?ee3cd9c31d0145310f5e966459'></script>
 
         </div>
 
-        <div class="mainDiez">
+        <div class="mainDiez" data-aos="fade-left">
             <h1>¡Sumate a los que vuelven siempre!</h1>
             <h3>Hace más de cinco años que los clientes vuelven y recomiendan Cabañas las Tijeretas.</h3>
             <p>Nuestro rating es de 4,8 estrellas en Google.
             Durante tu descanso notarás que nos esforzamos por diferenciarnos en nuestro servicio por
              lo que estaremos atentos a lo que necesites. ¡Nuestro objetivo es que vuelvas!</p>
+
 
         </div>
         <div class="mainOnce">
@@ -111,5 +121,9 @@
 
 
         <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
 </body>
 </html>
