@@ -68,6 +68,8 @@ body{
 
 .body {
 
+
+
             a{
                 text-decoration:none;
               }
@@ -115,14 +117,9 @@ body{
                 transition: all 300ms ease-in-out;
               }
               
-              
-              .text_icon {
-                margin-top: 8px;
-                color:blue;
-                inline-size: max-content;
-                font-size: 13px;
+              .divDos{
+                color: blue;
               }
-
 
     width:97%;
     display: grid;

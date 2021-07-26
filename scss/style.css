@@ -175,13 +175,8 @@ body iframe {
   transition: all 300ms ease-in-out;
 }
 
-.body .text_icon {
-  margin-top: 8px;
+.body .divDos {
   color: blue;
-  inline-size: -webkit-max-content;
-  inline-size: -moz-max-content;
-  inline-size: max-content;
-  font-size: 13px;
 }
 
 .body .headerUno {
