@@ -14,7 +14,7 @@ body {
 body .floating_btn {
   position: fixed;
   bottom: 1%;
-  right: 20%;
+  right: 2%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -197,6 +197,7 @@ body iframe {
 
 .body .headerUno p {
   display: contents;
+  font-size: 32px;
 }
 
 .body .headerUno img {
@@ -591,6 +592,12 @@ body iframe {
     -webkit-font-feature-settings: 'salt' on, 'liga' off;
             font-feature-settings: 'salt' on, 'liga' off;
     padding-left: 10%;
+  }
+  .body .headerUno {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */

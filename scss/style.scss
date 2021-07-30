@@ -13,7 +13,7 @@ body{
         .floating_btn {
           position: fixed;
           bottom: 1%;
-          right: 20%;
+          right: 2%;
           display: flex;
           flex-direction: column;
           align-items:center;
@@ -149,8 +149,8 @@ body{
 
     p{
         display: contents;
-
-    }
+        font-size: 32px;
+      }
 
     img{
         max-width: 166;
@@ -451,4 +451,16 @@ body{
         }
 
 
-        }}
+        }
+      
+      .body{
+        .headerUno{  
+          flex-direction: column;
+        }
+
+
+      }
+      
+      
+      
+      }
