@@ -14,7 +14,7 @@ body {
 body .floating_btn {
   position: fixed;
   bottom: 1%;
-  right: 2%;
+  right: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
