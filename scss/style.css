@@ -14,7 +14,7 @@ body {
 body .floating_btn {
   position: fixed;
   bottom: 1%;
-  right: 2%;
+  right: 15%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,7 +163,7 @@ body iframe {
 }
 
 .body {
-  width: 97%;
+  width: 90vw;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -441,8 +441,8 @@ body iframe {
   .body {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 120%;
-        grid-template-columns: 120%;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
     -ms-grid-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
         grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
     gap: 0.5% 0.5%;

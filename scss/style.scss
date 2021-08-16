@@ -13,7 +13,7 @@ body{
         .floating_btn {
           position: fixed;
           bottom: 1%;
-          right: 2%;
+          right: 15%;
           display: flex;
           flex-direction: column;
           align-items:center;
@@ -125,7 +125,7 @@ body{
                 text-decoration:none;
               }
               
-    width:97%;
+    width: 90vw;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto auto auto auto auto auto auto auto auto auto;
@@ -325,7 +325,7 @@ body{
     
         .body {
             display: grid; 
-            grid-template-columns: 120%; 
+            grid-template-columns: 100%; 
             grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto; 
             gap: 0.5% 0.5%; 
             grid-template-areas: 
