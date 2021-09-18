@@ -247,6 +247,12 @@ body iframe {
       align-self: center;
 }
 
+.body .mainUno .h2MainUno {
+  font-weight: 800;
+  font-size: 43px;
+  line-height: 20px;
+}
+
 .body .mainUno .textoMainUno {
   margin: 0px;
 }
