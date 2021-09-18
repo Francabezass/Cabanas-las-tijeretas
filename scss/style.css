@@ -84,7 +84,7 @@ body .divDos {
   text-align: left;
 }
 
-body h1 {
+body h1, body h2 {
   font-weight: 800;
   font-size: 58px;
   line-height: 80px;
@@ -423,7 +423,7 @@ body iframe {
     padding: 0%;
     padding-bottom: 60%;
   }
-  body h1 {
+  body h1, body h2 {
     text-align: center;
     padding-left: 3%;
     padding-right: 3%;
@@ -588,7 +588,7 @@ body iframe {
     padding: 0%;
     padding-bottom: 60%;
   }
-  body h1 {
+  body h1, body h2 {
     font-weight: 800;
     font-size: 30px;
     line-height: 30px;
